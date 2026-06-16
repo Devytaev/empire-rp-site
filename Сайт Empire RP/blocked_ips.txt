@@ -1,0 +1,5 @@
+CREATE TABLE blocked_ips (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    ip VARCHAR(64),
+    blocked_until INT
+);
